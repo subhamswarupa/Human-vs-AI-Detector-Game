@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A0533"/>
+      <stop offset="40%" style="stop-color:#3D1E6D"/>
+      <stop offset="100%" style="stop-color:#E8B4F8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#skyGrad)"/>
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="2" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="80" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="40" r="2" fill="white" opacity="0.7"/>
+  <circle cx="500" cy="60" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="650" cy="35" r="2" fill="white" opacity="0.6"/>
+  <circle cx="720" cy="90" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="50" cy="120" r="1" fill="white" opacity="0.5"/>
+  <!-- Moon -->
+  <circle cx="650" cy="100" r="35" fill="#E8D5F5" opacity="0.6"/>
+  <circle cx="660" cy="95" r="30" fill="#1A0533" opacity="0.5"/>
+  <!-- Floating island -->
+  <ellipse cx="400" cy="400" rx="300" ry="40" fill="#4A3728"/>
+  <ellipse cx="400" cy="395" rx="280" ry="30" fill="#5C4433"/>
+  <path d="M120 395 Q200 450 400 460 Q600 450 680 395" fill="#3D2E1F"/>
+  <!-- Castle main structure -->
+  <rect x="300" y="200" width="200" height="195" fill="#8B7355"/>
+  <rect x="280" y="190" width="240" height="20" fill="#A0896B"/>
+  <rect x="310" y="210" width="180" height="15" fill="#7A6548"/>
+  <!-- Castle towers -->
+  <rect x="280" y="160" width="40" height="235" fill="#9B8567"/>
+  <rect x="480" y="170" width="40" height="225" fill="#9B8567"/>
+  <!-- AI telltale: gravity-defying upper towers -->
+  <rect x="250" y="100" width="35" height="295" fill="#A0896B"/>
+  <rect x="515" y="90" width="35" height="305" fill="#A0896B"/>
+  <rect x="260" y="95" width="15" height="300" fill="#8B7355"/>
+  <rect x="525" y="85" width="15" height="310" fill="#8B7355"/>
+  <!-- Tower tops -->
+  <polygon points="280,160 300,130 320,160" fill="#6D5ACF"/>
+  <polygon points="480,170 500,140 520,170" fill="#6D5ACF"/>
+  <polygon points="250,100 267,65 285,100" fill="#7A65DF"/>
+  <polygon points="515,90 532,55 550,90" fill="#7A65DF"/>
+  <!-- Windows -->
+  <rect x="330" y="250" width="30" height="45" rx="15" fill="#1A0533"/>
+  <rect x="440" y="250" width="30" height="45" rx="15" fill="#1A0533"/>
+  <rect x="385" y="270" width="30" height="45" rx="15" fill="#1A0533"/>
+  <!-- Arch -->
+  <rect x="350" y="340" width="100" height="55" rx="5" fill="#1A0533"/>
+  <path d="M350 340 Q400 310 450 340" fill="none" stroke="#A0896B" stroke-width="3"/>
+  <!-- Waterfall streaming down into sky -->
+  <path d="M370 395 Q365 450 360 520 Q358 560 355 600" fill="#64B5F6" opacity="0.4"/>
+  <path d="M430 395 Q435 460 440 530 Q442 570 445 600" fill="#64B5F6" opacity="0.3"/>
+  <path d="M390 395 Q388 440 385 500 Q383 550 382 600" fill="#90CAF9" opacity="0.25"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="180" rx="60" ry="25" fill="white" opacity="0.15"/>
+  <ellipse cx="650" cy="220" rx="50" ry="20" fill="white" opacity="0.12"/>
+  <ellipse cx="550" cy="350" rx="40" ry="15" fill="white" opacity="0.1"/>
+</svg>

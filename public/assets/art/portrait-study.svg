@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <rect width="500" height="600" fill="#F5F0E8"/>
+  <rect width="500" height="600" fill="#E8E0D0"/>
+  <!-- Charcoal sketch - deliberate negative space -->
+  <!-- Hair - expressive lines -->
+  <path d="M120 140 Q140 100 180 90 Q220 85 250 95 Q280 100 310 90 Q350 80 370 110 Q385 130 380 160" fill="none" stroke="#2B2B2B" stroke-width="4" opacity="0.8"/>
+  <path d="M130 145 Q145 110 185 100 Q225 92 255 102 Q285 108 315 98 Q345 88 365 115" fill="none" stroke="#3D3D3D" stroke-width="3" opacity="0.6"/>
+  <path d="M115 160 Q125 120 165 105 Q205 95 240 100 Q270 105 305 95 Q340 85 375 120" fill="none" stroke="#1A1A1A" stroke-width="5" opacity="0.5"/>
+  <!-- Face outline - intentional asymmetry -->
+  <path d="M160 160 Q155 200 160 250 Q165 290 175 320 Q190 350 210 365 Q240 380 270 375 Q300 370 320 355 Q340 335 350 310 Q360 280 358 250 Q355 200 340 165" fill="none" stroke="#2B2B2B" stroke-width="3"/>
+  <!-- Eyes -->
+  <path d="M200 230 Q215 225 230 230" fill="none" stroke="#2B2B2B" stroke-width="2.5"/>
+  <path d="M270 232 Q285 227 300 232" fill="none" stroke="#2B2B2B" stroke-width="2.5"/>
+  <!-- Pupils -->
+  <circle cx="215" cy="232" r="4" fill="#2B2B2B"/>
+  <circle cx="285" cy="234" r="4" fill="#2B2B2B"/>
+  <!-- Nose - expressive -->
+  <path d="M248 235 Q245 265 240 280 Q248 285 255 280" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+  <!-- Mouth -->
+  <path d="M215 315 Q240 322 265 315" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+  <path d="M220 315 Q240 330 260 315" fill="none" stroke="#2B2B2B" stroke-width="1.5" opacity="0.5"/>
+  <!-- Wrinkles - deliberate artistic marks -->
+  <path d="M175 220 Q185 225 190 220" fill="none" stroke="#666" stroke-width="1" opacity="0.4"/>
+  <path d="M310 222 Q315 227 325 222" fill="none" stroke="#666" stroke-width="1" opacity="0.4"/>
+  <path d="M220 280 Q225 285 230 283" fill="none" stroke="#666" stroke-width="0.8" opacity="0.3"/>
+  <path d="M270 282 Q275 287 280 284" fill="none" stroke="#666" stroke-width="0.8" opacity="0.3"/>
+  <!-- Neck -->
+  <path d="M220 370 Q225 390 220 420" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+  <path d="M280 370 Q275 390 280 420" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+  <!-- Collar -->
+  <path d="M180 410 Q200 430 250 440 Q300 430 320 410" fill="none" stroke="#2B2B2B" stroke-width="2.5"/>
+  <!-- Shoulder lines -->
+  <path d="M160 420 Q140 450 130 500" fill="none" stroke="#2B2B2B" stroke-width="2" opacity="0.6"/>
+  <path d="M340 420 Q360 450 370 500" fill="none" stroke="#2B2B2B" stroke-width="2" opacity="0.6"/>
+  <!-- Deliberate negative space - leaving some areas intentionally blank -->
+  <!-- Artist signature mark -->
+  <path d="M380 530 Q390 520 395 530 Q400 520 410 530" fill="none" stroke="#666" stroke-width="1.5" opacity="0.5"/>
+</svg>

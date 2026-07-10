@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C4956A"/>
+      <stop offset="100%" style="stop-color:#8B5E3C"/>
+    </linearGradient>
+  </defs>
+  <!-- Window light -->
+  <rect width="800" height="500" fill="#FFF8E1"/>
+  <rect x="0" y="0" width="800" height="500" fill="url(#sunlight)" opacity="0.3"/>
+  <defs>
+    <radialGradient id="sunlight" cx="80%" cy="10%" r="80%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FFF9C4;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="350" width="800" height="150" fill="url(#table)"/>
+  <!-- Wood grain lines -->
+  <line x1="0" y1="370" x2="800" y2="372" stroke="#A0764A" stroke-width="0.5" opacity="0.5"/>
+  <line x1="0" y1="400" x2="800" y2="398" stroke="#A0764A" stroke-width="0.5" opacity="0.4"/>
+  <line x1="0" y1="430" x2="800" y2="432" stroke="#A0764A" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="460" x2="800" y2="458" stroke="#A0764A" stroke-width="0.5" opacity="0.2"/>
+  <!-- Saucer -->
+  <ellipse cx="400" cy="340" rx="120" ry="20" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1"/>
+  <ellipse cx="400" cy="340" rx="100" ry="15" fill="#FAFAFA"/>
+  <!-- Cup -->
+  <path d="M340 260 L350 330 Q400 345 450 330 L460 260 Z" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1.5"/>
+  <!-- Cup rim -->
+  <ellipse cx="400" cy="260" rx="62" ry="12" fill="#FAFAFA" stroke="#E0E0E0" stroke-width="1.5"/>
+  <!-- Handle -->
+  <path d="M460 275 Q500 275 500 305 Q500 325 460 320" fill="none" stroke="#E0E0E0" stroke-width="4"/>
+  <!-- Coffee -->
+  <ellipse cx="400" cy="262" rx="55" ry="9" fill="#6D4C41"/>
+  <ellipse cx="400" cy="260" rx="52" ry="7" fill="#5D4037"/>
+  <!-- Steam - natural, organic curves -->
+  <path d="M370 250 Q365 230 372 215 Q378 200 374 185" fill="none" stroke="#B0BEC5" stroke-width="2" opacity="0.5"/>
+  <path d="M390 248 Q385 225 392 210 Q398 195 394 180" fill="none" stroke="#B0BEC5" stroke-width="2" opacity="0.4"/>
+  <path d="M410 248 Q405 228 412 213 Q418 198 414 183" fill="none" stroke="#B0BEC5" stroke-width="2" opacity="0.45"/>
+  <path d="M430 250 Q425 232 432 218 Q438 205 434 190" fill="none" stroke="#B0BEC5" stroke-width="2" opacity="0.35"/>
+  <!-- Window frame shadow -->
+  <rect x="580" y="0" width="220" height="350" fill="#FFF9C4" opacity="0.15"/>
+  <line x1="690" y1="0" x2="690" y2="350" stroke="#FFF9C4" stroke-width="2" opacity="0.1"/>
+</svg>

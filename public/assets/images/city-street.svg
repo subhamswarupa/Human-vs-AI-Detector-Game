@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D0D2B"/>
+      <stop offset="100%" style="stop-color:#1A1A3E"/>
+    </linearGradient>
+    <linearGradient id="wetRoad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A2A4A"/>
+      <stop offset="100%" style="stop-color:#1A1A2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#nightSky)"/>
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="250" cy="30" r="1" fill="white" opacity="0.6"/>
+  <circle cx="400" cy="60" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="550" cy="25" r="1" fill="white" opacity="0.5"/>
+  <circle cx="700" cy="45" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="150" cy="80" r="1" fill="white" opacity="0.6"/>
+  <circle cx="650" cy="70" r="1" fill="white" opacity="0.7"/>
+  <!-- Buildings -->
+  <rect x="0" y="200" width="120" height="200" fill="#1C1C3E"/>
+  <rect x="50" y="170" width="80" height="230" fill="#222244"/>
+  <rect x="130" y="180" width="100" height="220" fill="#1E1E40"/>
+  <rect x="230" y="150" width="90" height="250" fill="#202042"/>
+  <rect x="320" y="190" width="110" height="210" fill="#1A1A3C"/>
+  <rect x="430" y="160" width="85" height="240" fill="#1C1C3E"/>
+  <rect x="520" y="200" width="100" height="200" fill="#222244"/>
+  <rect x="620" y="175" width="90" height="225" fill="#1E1E40"/>
+  <rect x="710" y="190" width="90" height="210" fill="#202042"/>
+  <!-- Building windows -->
+  {[0,1,2,3,4,5,6,7,8].map(b => Array.from({length: 5}, (_,w) => (
+    <rect key={`w${b}-${w}`} x={b*90+15 + w*18} y={195 + Math.random()*150} width="10" height="12" fill={Math.random() > 0.5 ? '#FFE082' : '#FFD54F'} opacity={0.6 + Math.random()*0.4}/>
+  )))}
+  <!-- Street -->
+  <rect x="0" y="380" width="800" height="120" fill="url(#wetRoad)"/>
+  <!-- Road markings -->
+  <rect x="50" y="430" width="80" height="6" fill="#FFD54F" opacity="0.6" rx="3"/>
+  <rect x="250" y="430" width="80" height="6" fill="#FFD54F" opacity="0.6" rx="3"/>
+  <rect x="450" y="430" width="80" height="6" fill="#FFD54F" opacity="0.6" rx="3"/>
+  <rect x="650" y="430" width="80" height="6" fill="#FFD54F" opacity="0.6" rx="3"/>
+  <!-- Neon reflections on wet ground -->
+  <ellipse cx="200" cy="410" rx="60" ry="15" fill="#FF1744" opacity="0.15"/>
+  <ellipse cx="400" cy="415" rx="50" ry="12" fill="#00E5FF" opacity="0.12"/>
+  <ellipse cx="600" cy="408" rx="55" ry="14" fill="#FFEA00" opacity="0.13"/>
+  <!-- Street lamp -->
+  <rect x="180" y="300" width="4" height="80" fill="#333"/>
+  <ellipse cx="182" cy="298" rx="12" ry="6" fill="#FFE082" opacity="0.8"/>
+  <circle cx="182" cy="298" r="4" fill="#FFD54F"/>
+  <rect x="580" y="280" width="4" height="100" fill="#333"/>
+  <ellipse cx="582" cy="278" rx="12" ry="6" fill="#FFE082" opacity="0.8"/>
+  <circle cx="582" cy="278" r="4" fill="#FFD54F"/>
+  <!-- Headlight beams -->
+  <ellipse cx="350" cy="420" rx="100" ry="8" fill="#FFF9C4" opacity="0.08" transform="rotate(-3,350,420)"/>
+  <ellipse cx="500" cy="425" rx="80" ry="6" fill="#FFF9C4" opacity="0.06" transform="rotate(2,500,425)"/>
+</svg>

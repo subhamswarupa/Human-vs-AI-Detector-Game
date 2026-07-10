@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#FFF8E1"/>
+  <!-- Sky wash -->
+  <rect width="600" height="200" fill="#BBDEFB" opacity="0.3"/>
+  <!-- AI telltale: too-regular watercolor bleeds -->
+  <!-- Hills -->
+  <ellipse cx="150" cy="200" rx="180" ry="60" fill="#A5D6A7" opacity="0.5"/>
+  <ellipse cx="450" cy="210" rx="200" ry="55" fill="#81C784" opacity="0.4"/>
+  <!-- Sea -->
+  <rect x="0" y="220" width="600" height="180" fill="#64B5F6" opacity="0.35"/>
+  <!-- Buildings - too regular for watercolor -->
+  <rect x="80" y="160" width="30" height="60" fill="#FFCC80" opacity="0.6"/>
+  <rect x="120" y="150" width="25" height="70" fill="#FFAB91" opacity="0.5"/>
+  <rect x="155" y="165" width="28" height="55" fill="#FFCC80" opacity="0.55"/>
+  <rect x="190" y="155" width="22" height="65" fill="#FFE0B2" opacity="0.5"/>
+  <!-- Windows - too evenly spaced -->
+  <rect x="86" y="170" width="6" height="8" fill="#FFF9C4" opacity="0.7"/>
+  <rect x="86" y="190" width="6" height="8" fill="#FFF9C4" opacity="0.7"/>
+  <rect x="126" y="165" width="5" height="7" fill="#FFF9C4" opacity="0.7"/>
+  <rect x="126" y="185" width="5" height="7" fill="#FFF9C4" opacity="0.7"/>
+  <!-- Bougainvillea - too perfectly placed -->
+  <circle cx="95" cy="165" r="8" fill="#F48FB1" opacity="0.6"/>
+  <circle cx="100" cy="158" r="6" fill="#F06292" opacity="0.5"/>
+  <circle cx="88" cy="160" r="5" fill="#F48FB1" opacity="0.5"/>
+  <circle cx="130" cy="155" r="7" fill="#F06292" opacity="0.5"/>
+  <circle cx="135" cy="148" r="5" fill="#F48FB1" opacity="0.5"/>
+  <!-- Watercolor bleed edges - too regular (AI telltale) -->
+  <ellipse cx="150" cy="200" rx="175" ry="55" fill="none" stroke="#A5D6A7" stroke-width="8" opacity="0.2"/>
+  <ellipse cx="450" cy="210" rx="195" ry="50" fill="none" stroke="#81C784" stroke-width="6" opacity="0.2"/>
+  <!-- Sun -->
+  <circle cx="520" cy="80" r="30" fill="#FFF9C4" opacity="0.5"/>
+  <circle cx="520" cy="80" r="25" fill="#FFF176" opacity="0.3"/>
+</svg>

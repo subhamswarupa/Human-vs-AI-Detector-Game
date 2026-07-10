@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+  <rect width="600" height="700" fill="#F5F0E8"/>
+  <!-- Background gradient -->
+  <defs>
+    <radialGradient id="windowLight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#FFF8E1;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#F5F0E8;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="700" fill="url(#windowLight)"/>
+  <!-- Shoulders -->
+  <path d="M150 450 Q200 430 300 420 Q400 430 450 450 L480 700 H120 Z" fill="#E8D5C4"/>
+  <!-- Neck -->
+  <rect x="270" y="370" width="60" height="80" rx="10" fill="#F5DCC8"/>
+  <!-- Head shape -->
+  <ellipse cx="300" cy="230" rx="110" ry="140" fill="#F5DCC8"/>
+  <!-- Hair -->
+  <path d="M190 200 Q190 80 300 70 Q410 80 410 200 Q400 160 350 155 Q300 150 250 155 Q200 160 190 200 Z" fill="#4E342E"/>
+  <path d="M195 180 Q200 100 300 90 Q400 100 405 180" fill="#5D4037"/>
+  <!-- Eyebrows -->
+  <path d="M240 185 Q260 178 280 185" fill="none" stroke="#4E342E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M320 185 Q340 178 360 185" fill="none" stroke="#4E342E" stroke-width="3" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <ellipse cx="260" cy="210" rx="18" ry="12" fill="white"/>
+  <ellipse cx="340" cy="210" rx="18" ry="12" fill="white"/>
+  <!-- Iris -->
+  <circle cx="263" cy="212" r="9" fill="#5D4037"/>
+  <circle cx="343" cy="212" r="9" fill="#5D4037"/>
+  <!-- AI telltale: identical catchlights in both eyes -->
+  <circle cx="267" cy="207" r="4" fill="white" opacity="0.9"/>
+  <circle cx="347" cy="207" r="4" fill="white" opacity="0.9"/>
+  <!-- Second catchlight (wrong for window lighting) -->
+  <circle cx="259" cy="215" r="2" fill="white" opacity="0.5"/>
+  <circle cx="339" cy="215" r="2" fill="white" opacity="0.5"/>
+  <!-- Nose -->
+  <path d="M298 220 Q295 250 290 265 Q300 270 310 265 Q305 250 302 220" fill="#F0D0B8" stroke="#E8C4A8" stroke-width="1"/>
+  <!-- Lips -->
+  <path d="M275 290 Q300 298 325 290" fill="none" stroke="#E57373" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M275 290 Q300 305 325 290" fill="#E57373" opacity="0.4"/>
+  <!-- Freckles -->
+  <circle cx="245" cy="260" r="1.5" fill="#8D6E63" opacity="0.4"/>
+  <circle cx="255" cy="265" r="1" fill="#8D6E63" opacity="0.3"/>
+  <circle cx="250" cy="255" r="1.2" fill="#8D6E63" opacity="0.35"/>
+  <circle cx="350" cy="258" r="1.5" fill="#8D6E63" opacity="0.4"/>
+  <circle cx="345" cy="268" r="1" fill="#8D6E63" opacity="0.3"/>
+  <circle cx="355" cy="262" r="1.2" fill="#8D6E63" opacity="0.35"/>
+  <!-- Unnaturally smooth skin - AI telltale -->
+</svg>
